@@ -1,0 +1,177 @@
+<html>
+<head>
+  <title>Panchos Frut - Frutas deshidratadas</title>
+  <style>
+    /* Aquí puedes añadir tus propios estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F0F0F0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #FFC107;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      color: black;
+    }
+    .banner {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #E0E0E0;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .card h3 {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .card p {
+      padding: 10px;
+    }
+    .card button {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #FFC107;
+      color: white;
+      font-weight: bold;
+    }
+    .card button:hover {
+      background-color: #FF9800;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#FFC107 ;
+      padding: 20px; 
+    }
+    .footer p {
+     color:white; 
+     font-weight:bold; 
+     margin-left :20px; 
+     margin-right :20px; 
+     font-size :18px; 
+     text-align :center; 
+   } 
+   .footer a { 
+     color:white; 
+     text-decoration:none; 
+   } 
+   @media screen and (max-width :768px) { 
+     .navbar { 
+       flex-direction :column; 
+     } 
+     .content { 
+       grid-template-columns :repeat(2,1fr); 
+     } 
+   } 
+
+   @media screen and (max-width :480px) { 
+     .content { 
+       grid-template-columns :1fr; 
+     } 
+   } 
+
+ </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+        <img src="c:\Users\FRANCISCO\Downloads\_a9ff3919-cd4d-4bbf-a41f-732cc87658d8.jpg" alt="Logo de Panchos Frut" class="logo"> <!-- Aquí he cambiado el atributo src para poner la foto como logo -->
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#sobre-nosotros">Sobre nosotros</a>
+    </div>
+    
+    <div id="inicio">
+        <img src="file:///c:\Users\FRANCISCO\Downloads\_a6a4e288-95b2-47e9-a428-4ad6a7d31721.jpg" alt="Banner de Panchos Frut" class="banner"> <!-- Aquí puedes poner la imagen de tu banner -->
+        <h1>¿Te gustan las frutas, pero no tienes tiempo de comerlas frescas? ¿Quieres disfrutar de un snack saludable y delicioso en cualquier momento y lugar? Entonces, prueba los productos de Panchos Frut, la empresa de frutas deshidratadas que te ofrece lo mejor de la naturaleza.</h1>
+        <p>En Panchos Frut, seleccionamos las frutas más sabrosas y las deshidratamos con procesos naturales, sin añadir azúcares, conservantes ni colorantes artificiales. Así, conservamos todas sus propiedades nutricionales y su sabor original, pero con una textura crujiente y una mayor duración.</p>
+    </div>
+    
+    <div id="productos">
+        <h2>Nuestra variedad de frutas deshidratadas</h2>
+        <div class="content">
+            <div class="card">
+                <img src="file:///c:\Users\FRANCISCO\Downloads\manzana deshidratada.jpg" alt="manzana deshidratada"> <!-- Aquí he cambiado el atributo src para poner la imagen de la fruta -->
+                <h3>Manzana</h3>
+                <p>La manzana es una fruta rica en fibra, vitaminas y antioxidantes. Su consumo ayuda a regular el tránsito intestinal, prevenir el colesterol y fortalecer el sistema inmunológico. Nuestras manzanas deshidratadas conservan todas estas propiedades y tienen un sabor dulce y refrescante.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="file:///c:\Users\FRANCISCO\Downloads\platano deshidratado.jpg" alt="Plátano deshidratado"> <!-- Aquí he cambiado el atributo src para poner la imagen de la fruta -->
+                <h3>Plátano</h3>
+                <p>El plátano es una fruta rica en potasio, magnesio y vitamina B6. Su consumo ayuda a prevenir los calambres musculares, mejorar el ánimo y la memoria, y regular la presión arterial. Nuestros plátanos deshidratados conservan todas estas propiedades y tienen un sabor dulce y cremoso.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="file:///c:\Users\FRANCISCO\Downloads\mango deshidratado.png" alt="Mango deshidratado"> <!-- Aquí he cambiado el atributo src para poner la imagen de la fruta -->
+                <h3>Mango</h3>
+                <p>El mango es una fruta rica en vitamina C, betacaroteno y flavonoides. Su consumo ayuda a prevenir las infecciones, mejorar la visión y la piel, y proteger el hígado. Nuestros mangos deshidratados conservan todas estas propiedades y tienen un sabor tropical y jugoso.</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Aquí puedes añadir más tarjetas con otras frutas -->
+        </div>
+    </div>
+
+    <div id="contacto">
+        <h2>Contacta con nosotros</h2>
+        <p>Si tienes alguna duda, sugerencia o reclamación, puedes contactar con nosotros a través de los siguientes medios:</p>
+        <ul>
+            <li>Teléfono: +52 425 134 51 64</li>
+            <li>Email: panchosfrut@gmail.com</li>
+            <li>Facebook: Panchos Frut</li>
+            <li>Instagram: @panchosfrut</li>
+        </ul>
+    </div>
+
+    <div id="sobre-nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Panchos Frut es una empresa familiar fundada en 2020 por Francisco "Pancho" Valdovinos, un apasionado de las frutas y la naturaleza. Pancho empezó a deshidratar frutas en su casa como una forma de aprovechar las que se iban a echar a perder. Pronto descubrió que le encantaba el resultado y que podía crear diferentes combinaciones de sabores y texturas. Así nació Panchos Frut, una empresa que busca ofrecer productos de calidad, naturales y saludables, elaborados con frutas locales y de temporada.</p>
+    </div>
+
+    <div class="footer">
+      <p>Todos los derechos reservados © Panchos Frut 2023</p>
+      <p><a href="#inicio">Volver arriba</a></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
